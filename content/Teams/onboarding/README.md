@@ -68,22 +68,22 @@ Advocating about sane monitoring and alerting practices (especially focused on K
 
 ## First days (accounts & access)
 
-1. Meet with your manager to get your temporary access token.
-2. Follow the instructions you received to get your SSO access setup. This will enable you to access the VPN, your Red Hat email etc. Be sure to setup 2-Factor Auth using the Google Authenticator app or similar as described in the instructions provided by IT.
+1. [x] (N/A due to internal transfer) Meet with your manager to get your temporary access token.
+2. [x] (N/A due to internal transfer) Follow the instructions you received to get your SSO access setup. This will enable you to access the VPN, your Red Hat email etc. Be sure to setup 2-Factor Auth using the Google Authenticator app or similar as described in the instructions provided by IT.
 3. Ensure you are added to the **team-monitoring@redhat.com mailing list.** mailing list (request to be added by Assaf Muller)
-4. Join the observability-announce mailing list ([https://groups.google.com/a/redhat.com/g/observability-announce](https://groups.google.com/a/redhat.com/g/observability-announce))
-5. Join the **aos-devel@redhat.com **mailing list [https://post-office.corp.redhat.com/mailman/listinfo](https://post-office.corp.redhat.com/mailman/listinfo) (requires VPN)
-6. Get in touch with your mentor ([mentors are tracked here](https://docs.google.com/spreadsheets/d/1SpdBbZChBNuPHVtbCjOch1mfZGUuCjkrp7yyCClL9kk/edit#gid=0))
-7. Join the following communication channels:
-   1. [Setup slack using this guide](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_slack#jive_content_id_Quickstart)
-   2. Ask your manager or another team member to add you to the private **[#team-monitoring](https://coreos.slack.com/archives/G79AW9Q7R/p1621409351049200)** and **[#observability-team](https://coreos.slack.com/archives/C02BY4191B6)** channels.
-   3. Ask your manager or team lead to add you to the @monitoring-team alias in slack. You can also add yourself in Slack in "More" -> "People & user groups" -> "User groups" searching for "@monitoring-team" and then going to "Edit Members".
-   4. Join the public channels:
-      * **[#forum-monitoring](https://coreos.slack.com/archives/C0VMT03S5)**
-      * **[#forum-telemetry](https://coreos.slack.com/archives/CEG5ZJQ1G)**
-      * [#forum-observatorium](https://coreos.slack.com/archives/C010A637DGB)
-   5. Join the following channels in the public [kubernetes slack](https://kubernetes.slack.com/): 4. **[#prometheus-operator-dev](https://kubernetes.slack.com/archives/C01B03QCSMN)** 5. #prometheus-operator 6. (optionally) #prometheus
-   6. [CNCF Slack](https://slack.cncf.io): 7. #prometheus 8. #thanos 9. #thanos-dev
+4. [x] Join the observability-announce mailing list ([https://groups.google.com/a/redhat.com/g/observability-announce](https://groups.google.com/a/redhat.com/g/observability-announce))
+5. WIP Join the **aos-devel@redhat.com **mailing list [https://post-office.corp.redhat.com/mailman/listinfo](https://post-office.corp.redhat.com/mailman/listinfo) (requires VPN)
+6. [x] Get in touch with your mentor ([mentors are tracked here](https://docs.google.com/spreadsheets/d/1SpdBbZChBNuPHVtbCjOch1mfZGUuCjkrp7yyCClL9kk/edit#gid=0))
+7. [x] Join the following communication channels:
+   1. [x] [Setup slack using this guide](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_slack#jive_content_id_Quickstart)
+   2. [x] Ask your manager or another team member to add you to the private **[#team-monitoring](https://coreos.slack.com/archives/G79AW9Q7R/p1621409351049200)** and **[#observability-team](https://coreos.slack.com/archives/C02BY4191B6)** channels.
+   3. [x] Ask your manager or team lead to add you to the @monitoring-team alias in slack. You can also add yourself in Slack in "More" -> "People & user groups" -> "User groups" searching for "@monitoring-team" and then going to "Edit Members".
+   4. [x] Join the public channels:
+      * [x] **[#forum-monitoring](https://coreos.slack.com/archives/C0VMT03S5)**
+      * [x] **[#forum-telemetry](https://coreos.slack.com/archives/CEG5ZJQ1G)**
+      * [x] [#forum-observatorium](https://coreos.slack.com/archives/C010A637DGB)
+   5. [x] Join the following channels in the public [kubernetes slack](https://kubernetes.slack.com/): 4. **[#prometheus-operator-dev](https://kubernetes.slack.com/archives/C01B03QCSMN)** 5. #prometheus-operator 6. (optionally) #prometheus
+   6. [x] [CNCF Slack](https://slack.cncf.io): 7. #prometheus 8. #thanos 9. #thanos-dev
    7. IRC: #prometheus, #prometheus-dev
    8. More info: https://prometheus.io/community/
 8. If you don’t have one already, create a GitHub account.
