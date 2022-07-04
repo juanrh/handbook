@@ -70,9 +70,9 @@ Advocating about sane monitoring and alerting practices (especially focused on K
 
 1. [x] (N/A due to internal transfer) Meet with your manager to get your temporary access token.
 2. [x] (N/A due to internal transfer) Follow the instructions you received to get your SSO access setup. This will enable you to access the VPN, your Red Hat email etc. Be sure to setup 2-Factor Auth using the Google Authenticator app or similar as described in the instructions provided by IT.
-3. Ensure you are added to the **team-monitoring@redhat.com mailing list.** mailing list (request to be added by Assaf Muller)
+3. [x] Ensure you are added to the **team-monitoring@redhat.com mailing list.** mailing list (request to be added by Assaf Muller)
 4. [x] Join the observability-announce mailing list ([https://groups.google.com/a/redhat.com/g/observability-announce](https://groups.google.com/a/redhat.com/g/observability-announce))
-5. WIP Join the **aos-devel@redhat.com **mailing list [https://post-office.corp.redhat.com/mailman/listinfo](https://post-office.corp.redhat.com/mailman/listinfo) (requires VPN)
+5. [x] Join the **aos-devel@redhat.com **mailing list [https://post-office.corp.redhat.com/mailman/listinfo](https://post-office.corp.redhat.com/mailman/listinfo) (requires VPN)
 6. [x] Get in touch with your mentor ([mentors are tracked here](https://docs.google.com/spreadsheets/d/1SpdBbZChBNuPHVtbCjOch1mfZGUuCjkrp7yyCClL9kk/edit#gid=0))
 7. [x] Join the following communication channels:
    1. [x] [Setup slack using this guide](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_slack#jive_content_id_Quickstart)
@@ -101,11 +101,11 @@ Advocating about sane monitoring and alerting practices (especially focused on K
 
 Try to help out and be visible in the slack channels and mailing lists you were instructed to join, but don’t make it your job to stay on top of every single discussion.
 
-### Tickets & tracking bugs
+### DONE - Tickets & tracking bugs
 
-Watch the [Bugzilla & Jira introduction](https://drive.google.com/file/d/1mDLQCJSO56ae4lZtxKIFxEsGMxh24zyl/view?usp=sharing)
+DONE - Watch the [Bugzilla & Jira introduction](https://drive.google.com/file/d/1mDLQCJSO56ae4lZtxKIFxEsGMxh24zyl/view?usp=sharing)
 
-### JIRA
+### DONE - JIRA
 
 A Red Hat Customer Portal account is required for logging in to several Red Hat services, https://issues.redhat.com being among them. To access employee-restricted resources such as internal Jira issues, this account needs to be linked to your employee login (Kerberos). Follow the [checklist](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_onboarding_checklist_for_red_hat_customer_portal_account_setup) to make sure your account is properly set up. It might take 24 hours or so to sync your account after its been linked to customer portal.
 
@@ -113,45 +113,60 @@ Ensure you can access our [project](https://issues.redhat.com/projects/MON/issue
 
 Add a unique image as your avatar :)
 
-### Bugzilla
+TODO: 
+
+- [x] [Jira checklist](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_onboarding_checklist_for_red_hat_customer_portal_account_setup)
+- [x] Ensure you can access our [project](https://issues.redhat.com/projects/MON/issues).
+
+### DONE - Bugzilla
 
 [Bugzilla](https://bugzilla.redhat.com) is a legacy system that we must use as the official source-of-truth for all bug tracking, customer issues, and backporting. In the in-cluster team you will need to get familiar with this system as you will use it on a daily basis. For observability-platform we use it less often, but there can be times where Telemeter bugs are reported there. All info on how to do the following tasks are in this doc: [Bugzilla Bug Boss Cheat Sheet](https://docs.google.com/document/d/1QMqJHUDXPVkElhBs3r71zfU6xEjC7FW6_S_JFmvtzqc/edit#)
 
-1. Read the above doc carefully
-2. Create your Bugzilla account
-3. Request and ensure the necessary permissions are granted (ask your manager)
-4. Read the [OpenShift Bugzilla Process documentation](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_bugzilla_process)
-5. Make sure you are aware to hit “show advanced fields” for doc text fields and others. Alternatively you can set it in *Preferences > General Preferences > Initially hide the advanced fields in bug editor: Off*. (The fields "Doc Type" and "Doc Text" are hidden otherwise. If these fields are not set, one will get emails about "Action required for your OpenShift Container Platform bugs - Missing doc text" on otherwise resolved issues.)
+1. [x] Read the above doc carefully
+2. [x] Create your Bugzilla account
+3. [x] Request and ensure the necessary permissions are granted (ask your manager)
+  - [x] https://bugzilla.redhat.com/show_bug.cgi?id=2103665 : Request the following groups: redhat, devel, packager
+  - [x] Go to Preferences -> Component Watching and setup a watch for the Monitoring component under the OpenShift Container Platform product
+  - [x] https://source.redhat.com/groups/public/supportshell/supportshell_wiki/support_shell_main for details on how to set up access to supportshell.
+    - [x] I'm a member of supportshell-engineering-users rover group
+    - [x] IPA realm check PASS 
+    - [x] IdM Realm Password set
+    - [x] Login successful: `ssh supportshell...` PASS
+4. [x] Read the [OpenShift Bugzilla Process documentation](https://source.redhat.com/groups/public/atomicopenshift/atomicopenshift_wiki/openshift_bugzilla_process)
+5. [x] Make sure you are aware to hit “show advanced fields” for doc text fields and others. Alternatively you can set it in *Preferences > General Preferences > Initially hide the advanced fields in bug editor: Off*. (The fields "Doc Type" and "Doc Text" are hidden otherwise. If these fields are not set, one will get emails about "Action required for your OpenShift Container Platform bugs - Missing doc text" on otherwise resolved issues.)
+  - [x] Set "Initially hide the advanced fields in bug editor" to Off
 
 ### Spinning up OpenShift clusters
 
 There are several ways to create an OpenShift cluster or to use an existing one. You can choose the method which is most suitable for your particular use-case.
 
-* There is a global OpenShift cluster which gets recycled daily. The credentials for accessing it are posted in the [forum-ui-clusters](https://coreos.slack.com/archives/CUNC2JA2U) channel.
-* Short-lived clusters (up to 2 hours) can be provisioned using the **cluster-bot** Slack app. Type in *help* for instructions on how to interact with cluster-bot.
-* Clusters which last up to a day can be created using the CLI. Review the documentation for [AWS](https://docs.google.com/document/d/1j7bhLXT_cIAjpMh_x2jeegtpE7495Mj5A-EcQsgZEDo/edit#) and [GCP](https://docs.google.com/document/d/1qm37EKkjgoPtjW4909UClzvsjQO5VSpPUvFO_hW_PEg) and request your accounts. Note: for GCP the project name is openshift-gce-devel
+* [x] There is a global OpenShift cluster which gets recycled daily. The credentials for accessing it are posted in the [forum-ui-clusters](https://coreos.slack.com/archives/CUNC2JA2U) channel.
+* [x] Short-lived clusters (up to 2 hours) can be provisioned using the **cluster-bot** Slack app. Type in *help* for instructions on how to interact with cluster-bot.
+* [] Clusters which last up to a day can be created using the CLI. Review the documentation for [AWS](https://docs.google.com/document/d/1j7bhLXT_cIAjpMh_x2jeegtpE7495Mj5A-EcQsgZEDo/edit#) and [GCP](https://docs.google.com/document/d/1qm37EKkjgoPtjW4909UClzvsjQO5VSpPUvFO_hW_PEg) and request your accounts. Note: for GCP the project name is openshift-gce-devel
+  * [] WIP AWS account https://issues.redhat.com/browse/DPP-10661
+  * [x] GCP credentials smoke test `gcloud compute instances list` PASS
 
-### Administrative things
+### DONE - Administrative things
 
-1. Review all the onboarding instructions/documentation sent to your email by the People Team (HR).
-2. Submit an[Employee Badge Request Form](https://redhat.service-now.com/rh_ess/cat_item.do?&sysparm_document_key=sc_cat_item,ac8bb875a82282004c7185ae62325874)
-3. Register for new hire orientation NHO (you will get an email about this from HR)
-4. Speak with your manager about any additional equipment you need (e.g. keyboard, mouse, etc)
-5. Login to Rover (our company directory) and update your profile [https://rover.redhat.com/people/profile/](https://rover.redhat.com/people/profile/). Be sure to do the following:
+1. [x] Review all the onboarding instructions/documentation sent to your email by the People Team (HR).
+2. [x] Submit an[Employee Badge Request Form](https://redhat.service-now.com/rh_ess/cat_item.do?&sysparm_document_key=sc_cat_item,ac8bb875a82282004c7185ae62325874)
+3. [x] Register for new hire orientation NHO (you will get an email about this from HR)
+4. [x] Speak with your manager about any additional equipment you need (e.g. keyboard, mouse, etc)
+5. [x] Login to Rover (our company directory) and update your profile [https://rover.redhat.com/people/profile/](https://rover.redhat.com/people/profile/). Be sure to do the following:
    * Add a short bio
    * Bookmark Rover for future reference
-6. Add yourself in [https://spaces.redhat.com/display/OBS/Monitoring+Team](https://spaces.redhat.com/display/OBS/Monitoring+Team)
+6. [x] Add yourself in [https://spaces.redhat.com/display/OBS/Monitoring+Team](https://spaces.redhat.com/display/OBS/Monitoring+Team)
 
 ### Meetings
 
-Ask your manager to be added to the [Observability Program](https://calendar.google.com/calendar/u/0?cid=cmVkaGF0LmNvbV91N3YwbGt2cnRuM2wwbWJmMnF2M2VkMm12MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar. Ensure you attend the following recurring meetings:
+DONE AKA "Observability Group PTO" as seen checking the calendar id - Ask your manager to be added to the [Observability Program](https://calendar.google.com/calendar/u/0?cid=cmVkaGF0LmNvbV91N3YwbGt2cnRuM2wwbWJmMnF2M2VkMm12MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar. Ensure you attend the following recurring meetings:
 
-* Team syncs
-* Sprint retro/planning
-* Sprint reviews
-* Weekly architecture call
-* 1on1 with manager
-* Weekly 1on1 with your mentor ([mentors are tracked here](https://docs.google.com/spreadsheets/d/1SpdBbZChBNuPHVtbCjOch1mfZGUuCjkrp7yyCClL9kk/edit#gid=0))
+* [x] Team syncs
+* [x] Sprint retro/planning
+* [ ] Sprint reviews
+* [ ] Weekly architecture call
+* [x] 1on1 with manager
+* [x] Weekly 1on1 with your mentor ([mentors are tracked here](https://docs.google.com/spreadsheets/d/1SpdBbZChBNuPHVtbCjOch1mfZGUuCjkrp7yyCClL9kk/edit#gid=0))
 
 ## First weeks
 
