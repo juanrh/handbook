@@ -142,8 +142,8 @@ There are several ways to create an OpenShift cluster or to use an existing one.
 
 * [x] There is a global OpenShift cluster which gets recycled daily. The credentials for accessing it are posted in the [forum-ui-clusters](https://coreos.slack.com/archives/CUNC2JA2U) channel.
 * [x] Short-lived clusters (up to 2 hours) can be provisioned using the **cluster-bot** Slack app. Type in *help* for instructions on how to interact with cluster-bot.
-* [] Clusters which last up to a day can be created using the CLI. Review the documentation for [AWS](https://docs.google.com/document/d/1j7bhLXT_cIAjpMh_x2jeegtpE7495Mj5A-EcQsgZEDo/edit#) and [GCP](https://docs.google.com/document/d/1qm37EKkjgoPtjW4909UClzvsjQO5VSpPUvFO_hW_PEg) and request your accounts. Note: for GCP the project name is openshift-gce-devel
-  * [] WIP AWS account https://issues.redhat.com/browse/DPP-10661
+* [ ] Clusters which last up to a day can be created using the CLI. Review the documentation for [AWS](https://docs.google.com/document/d/1j7bhLXT_cIAjpMh_x2jeegtpE7495Mj5A-EcQsgZEDo/edit#) and [GCP](https://docs.google.com/document/d/1qm37EKkjgoPtjW4909UClzvsjQO5VSpPUvFO_hW_PEg) and request your accounts. Note: for GCP the project name is openshift-gce-devel
+  * [ ] WIP AWS account https://issues.redhat.com/browse/DPP-10661
   * [x] GCP credentials smoke test `gcloud compute instances list` PASS
 
 ### DONE - Administrative things
@@ -163,8 +163,8 @@ DONE AKA "Observability Group PTO" as seen checking the calendar id - Ask your m
 
 * [x] Team syncs
 * [x] Sprint retro/planning
-* [ ] Sprint reviews
-* [ ] Weekly architecture call
+* [x] Sprint reviews
+* [x] (not applying to me) Weekly architecture call
 * [x] 1on1 with manager
 * [x] Weekly 1on1 with your mentor ([mentors are tracked here](https://docs.google.com/spreadsheets/d/1SpdBbZChBNuPHVtbCjOch1mfZGUuCjkrp7yyCClL9kk/edit#gid=0))
 
@@ -174,17 +174,17 @@ Set up your computer and development environment and do some research. Feel free
 
 ### General
 
-1. Review our product documentation (this is very important): [Understanding the monitoring stack | Monitoring | OpenShift Container Platform 4.10](https://docs.openshift.com/container-platform/4.10/monitoring/monitoring-overview.html#understanding-the-monitoring-stack_monitoring-overview)
-2. Review our team’s process doc: [Monitoring Team Process](https://docs.google.com/document/d/1vbDGcjMjJMTIWcua5Keajla9FzexjLKmVk7zoUc0_MI/edit#heading=h.n0ac5lllvh13)
-3. Review how others should formally submit requests to our team: [Requests: Monitoring Team](https://docs.google.com/document/d/10orRGt5zlmZ-XsXQNY-sg6lOzWDCrPmHP68Oi-ETU9I)
-4. If you haven’t already, buy this book and make a plan to finish it over time (you can expense it): *“Site Reliability Engineering: How Google Runs Production Systems”*. Online version of the book can be found here: [https://sre.google/books/](https://sre.google/books/).
+1. [x] Review our product documentation (this is very important): [Understanding the monitoring stack | Monitoring | OpenShift Container Platform 4.10](https://docs.openshift.com/container-platform/4.10/monitoring/monitoring-overview.html#understanding-the-monitoring-stack_monitoring-overview)
+2. [x] Review our team’s process doc: [Monitoring Team Process](https://docs.google.com/document/d/1vbDGcjMjJMTIWcua5Keajla9FzexjLKmVk7zoUc0_MI/edit#heading=h.n0ac5lllvh13)
+3. [x] Review how others should formally submit requests to our team: [Requests: Monitoring Team](https://docs.google.com/document/d/10orRGt5zlmZ-XsXQNY-sg6lOzWDCrPmHP68Oi-ETU9I)
+4. [x] If you haven’t already, buy this book and make a plan to finish it over time (you can expense it): *“Site Reliability Engineering: How Google Runs Production Systems”*. Online version of the book can be found here: [https://sre.google/books/](https://sre.google/books/).
 5. Ensure you attend a meeting with your team lead or architect to give a general overview of our in-cluster OpenShift technology stack.
 6. Ensure you attend a meeting with your team lead or architect to give a general overview of our hosted Observatorium/Telemetry stack.
-7. Bookmark this spreadsheet for reference of all [OpenShift release dates](https://docs.google.com/spreadsheets/d/19bRYespPb-AvclkwkoizmJ6NZ54p9iFRn6DGD8Ugv2c/edit#gid=0). Alternatively, you can add the [OpenShift Release Dates](https://calendar.google.com/calendar/embed?src=c_188dvhrfem5majheld63i20a7rslg%40resource.calendar.google.com&ctz=America%2FNew_York) calendar.
+7. [x] Bookmark this spreadsheet for reference of all [OpenShift release dates](https://docs.google.com/spreadsheets/d/19bRYespPb-AvclkwkoizmJ6NZ54p9iFRn6DGD8Ugv2c/edit#gid=0). Alternatively, you can add the [OpenShift Release Dates](https://calendar.google.com/calendar/embed?src=c_188dvhrfem5majheld63i20a7rslg%40resource.calendar.google.com&ctz=America%2FNew_York) calendar.
 
 ### Watch these talks
 
-* [Prometheus introduction](https://www.youtube.com/watch?v=PzFUwBflXYc) by Julius Volz (project’s cofounder) @ KubeCon EU 2020
+* [x] [Prometheus introduction](https://www.youtube.com/watch?v=PzFUwBflXYc) by Julius Volz (project’s cofounder) @ KubeCon EU 2020
 * [The Zen of Prometheus](https://www.youtube.com/watch?v=Nqp4fjw_omU), by Kemal (ex-Observability Platform team) @ PromCon 2020
 * [The RED Method: How To Instrument Your Services](https://www.youtube.com/watch?v=zk77VS98Em8) by Tom Wilkie @ GrafanaCon EU 2018
 * [Thanos: Prometheus at Scale](https://www.youtube.com/watch?v=q9j8vpgFkoY) by Lucas and Bartek (Observability Platform team) @ DevConf 2020
