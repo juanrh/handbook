@@ -66,7 +66,7 @@ These are the people you’ll be in most contact with when working upstream. If 
 
 Advocating about sane monitoring and alerting practices (especially focused on Kubernetes environments) and how Prometheus implements them is part of our team’s work. That can happen internally or on public channels. If you are comfortable giving talks on the topic or some specific work we have done, let us know so we can plan ahead to find you a speaking opportunity at meetups or conferences. If you are not comfortable, but want to break this barrier let us know as well, we can help you get more comfortable in public speaking slowly step by step. If you want to submit a CFP for a talk please add it to this [spreadsheet](https://docs.google.com/spreadsheets/d/1eo_JVND3k4ZnL25kgnhITSE2DBkyw8fwg3MyCXMjdYU/edit#gid=1880565406) and inform your manager.
 
-## First days (accounts & access)
+## DONE - First days (accounts & access)
 
 1. [x] (N/A due to internal transfer) Meet with your manager to get your temporary access token.
 2. [x] (N/A due to internal transfer) Follow the instructions you received to get your SSO access setup. This will enable you to access the VPN, your Red Hat email etc. Be sure to setup 2-Factor Auth using the Google Authenticator app or similar as described in the instructions provided by IT.
@@ -91,7 +91,7 @@ Advocating about sane monitoring and alerting practices (especially focused on K
    * (Requires to have a JIRA account set up already - see below)
    * Note: full name of the team: OpenShift Monitoring
 10. [x] Request access to the [rhobs](https://github.com/rhobs) organization by asking in #[team-monitoring](https://coreos.slack.com/archives/G79AW9Q7R/p1621409351049200) slack
-11. WIP https://issues.redhat.com/browse/DPP-10648 - Request to be added to the [team-monitoring github team](https://github.com/orgs/openshift/teams/openshift-team-monitoring/members) by creating a Jira ticket to DPP the team. Don't use GitHubs request option for that because it needs to be tracked internally.
+11. [x] Request to be added to the [team-monitoring github team](https://github.com/orgs/openshift/teams/openshift-team-monitoring/members) by creating a Jira ticket to DPP the team. Don't use GitHubs request option for that because it needs to be tracked internally.
     * Note that this would only work after you are added to the Openshift Github organization
     * Example ticket [here](https://issues.redhat.com/browse/DPP-8352)
 12. [x] Ensure your manager adds you to the [team PTO calendar](https://calendar.google.com/calendar/u/0?cid=cmVkaGF0LmNvbV91N3YwbGt2cnRuM2wwbWJmMnF2M2VkMm12MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) and that you can access it.
@@ -136,14 +136,14 @@ TODO:
 5. [x] Make sure you are aware to hit “show advanced fields” for doc text fields and others. Alternatively you can set it in *Preferences > General Preferences > Initially hide the advanced fields in bug editor: Off*. (The fields "Doc Type" and "Doc Text" are hidden otherwise. If these fields are not set, one will get emails about "Action required for your OpenShift Container Platform bugs - Missing doc text" on otherwise resolved issues.)
   - [x] Set "Initially hide the advanced fields in bug editor" to Off
 
-### Spinning up OpenShift clusters
+### DONE - Spinning up OpenShift clusters
 
 There are several ways to create an OpenShift cluster or to use an existing one. You can choose the method which is most suitable for your particular use-case.
 
 * [x] There is a global OpenShift cluster which gets recycled daily. The credentials for accessing it are posted in the [forum-ui-clusters](https://coreos.slack.com/archives/CUNC2JA2U) channel.
 * [x] Short-lived clusters (up to 2 hours) can be provisioned using the **cluster-bot** Slack app. Type in *help* for instructions on how to interact with cluster-bot.
-* [ ] Clusters which last up to a day can be created using the CLI. Review the documentation for [AWS](https://docs.google.com/document/d/1j7bhLXT_cIAjpMh_x2jeegtpE7495Mj5A-EcQsgZEDo/edit#) and [GCP](https://docs.google.com/document/d/1qm37EKkjgoPtjW4909UClzvsjQO5VSpPUvFO_hW_PEg) and request your accounts. Note: for GCP the project name is openshift-gce-devel
-  * [ ] WIP AWS account https://issues.redhat.com/browse/DPP-10661
+* [x] Clusters which last up to a day can be created using the CLI. Review the documentation for [AWS](https://docs.google.com/document/d/1j7bhLXT_cIAjpMh_x2jeegtpE7495Mj5A-EcQsgZEDo/edit#) and [GCP](https://docs.google.com/document/d/1qm37EKkjgoPtjW4909UClzvsjQO5VSpPUvFO_hW_PEg) and request your accounts. Note: for GCP the project name is openshift-gce-devel
+  * [x] AWS account https://issues.redhat.com/browse/DPP-10661
   * [x] GCP credentials smoke test `gcloud compute instances list` PASS
 
 ### DONE - Administrative things
