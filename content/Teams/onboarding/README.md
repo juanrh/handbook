@@ -187,7 +187,7 @@ Set up your computer and development environment and do some research. Feel free
 * [x] [Prometheus introduction](https://www.youtube.com/watch?v=PzFUwBflXYc) by Julius Volz (project’s cofounder) @ KubeCon EU 2020
 * [x] [The Zen of Prometheus](https://www.youtube.com/watch?v=Nqp4fjw_omU), by Kemal (ex-Observability Platform team) @ PromCon 2020
 * [x] [The RED Method: How To Instrument Your Services](https://www.youtube.com/watch?v=zk77VS98Em8) by Tom Wilkie @ GrafanaCon EU 2018
-* [Thanos: Prometheus at Scale](https://www.youtube.com/watch?v=q9j8vpgFkoY) by Lucas and Bartek (Observability Platform team) @ DevConf 2020
+* [x] [Thanos: Prometheus at Scale](https://www.youtube.com/watch?v=q9j8vpgFkoY) by Lucas and Bartek (Observability Platform team) @ DevConf 2020
 * [Instrumenting Applications and Alerting with Prometheus](https://www.youtube.com/watch?v=sHKWD8XnmmY), from Simon (Cluster Observability team) @ OSSEU 2019
 * [PromQL for mere mortals](https://www.youtube.com/watch?v=hTjHuoWxsks) by Ian Billett (Observability Platform team)@ PromCon 2019
 * [Life of an alert (Alertmanager)](https://www.youtube.com/watch?v=PUdjca23Qa4), @ PromCon 2018
@@ -209,11 +209,11 @@ Set up your computer and development environment and do some research. Feel free
 
 The team uses various tools, you should get familiar with them by reading through the documentation and trying them out:
 
-* [Go](https://golang.org/)
-* [Jsonnet](https://jsonnet.org/)
+* [x] [Go](https://golang.org/)
+* [x] [Jsonnet](https://jsonnet.org/)
 * [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/)
-* [Kubernetes](https://kubernetes.io/)
-* [Thanos](https://thanos.io/)
+* [x] [Kubernetes](https://kubernetes.io/)
+* WIP [Thanos](https://thanos.io/)
 * [Observatorium](https://github.com/observatorium)
 
 ### Who’s Who?
