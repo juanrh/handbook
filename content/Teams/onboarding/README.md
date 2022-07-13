@@ -190,8 +190,8 @@ Set up your computer and development environment and do some research. Feel free
 * [x] [Thanos: Prometheus at Scale](https://www.youtube.com/watch?v=q9j8vpgFkoY) by Lucas and Bartek (Observability Platform team) @ DevConf 2020
 * [x] [Instrumenting Applications and Alerting with Prometheus](https://www.youtube.com/watch?v=sHKWD8XnmmY), from Simon (Cluster Observability team) @ OSSEU 2019
 * [x] [PromQL for mere mortals](https://www.youtube.com/watch?v=hTjHuoWxsks) by Ian Billett (Observability Platform team)@ PromCon 2019
-* [Life of an alert (Alertmanager)](https://www.youtube.com/watch?v=PUdjca23Qa4), @ PromCon 2018
-* [Best practices and pitfalls](https://www.youtube.com/watch?v=_MNYuTNfTb4) @ PromCon 2017
+* [x] [Life of an alert (Alertmanager)](https://www.youtube.com/watch?v=PUdjca23Qa4), @ PromCon 2018
+* [x] [Best practices and pitfalls](https://www.youtube.com/watch?v=_MNYuTNfTb4) @ PromCon 2017
 * [Deep Dive: Kubernetes Metric APIs using Prometheus](https://www.youtube.com/watch?v=cIoOAbzhR7k)
 * [Monitoring Kubernetes with prometheus-operator](https://www.youtube.com/watch?v=MuHPMXCGiLc) by Lili @ Cloud Native Computing Berlin meetup 2021
 * [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) by Tom Wilkie(Grafana Labs) @ Kubecon, Europe 2018
