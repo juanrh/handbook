@@ -192,8 +192,8 @@ Set up your computer and development environment and do some research. Feel free
 * [x] [PromQL for mere mortals](https://www.youtube.com/watch?v=hTjHuoWxsks) by Ian Billett (Observability Platform team)@ PromCon 2019
 * [x] [Life of an alert (Alertmanager)](https://www.youtube.com/watch?v=PUdjca23Qa4), @ PromCon 2018
 * [x] [Best practices and pitfalls](https://www.youtube.com/watch?v=_MNYuTNfTb4) @ PromCon 2017
-* [Deep Dive: Kubernetes Metric APIs using Prometheus](https://www.youtube.com/watch?v=cIoOAbzhR7k)
-* [Monitoring Kubernetes with prometheus-operator](https://www.youtube.com/watch?v=MuHPMXCGiLc) by Lili @ Cloud Native Computing Berlin meetup 2021
+* [x] [Deep Dive: Kubernetes Metric APIs using Prometheus](https://www.youtube.com/watch?v=cIoOAbzhR7k)
+* [x] [Monitoring Kubernetes with prometheus-operator](https://www.youtube.com/watch?v=MuHPMXCGiLc) by Lili @ Cloud Native Computing Berlin meetup 2021
 * [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) by Tom Wilkie(Grafana Labs) @ Kubecon, Europe 2018
 * [(Internal) Observatorium Deep Dive](https://drive.google.com/drive/u/0/folders/1NHhgoYi5y58wJpi_qp49tx1V9TQcRQTj), January 2021 by Kemal
 * [(Internal) How to Get Reviewers to Block your Changes](https://drive.google.com/file/d/1KOWv5A2qAoO1CfbfhCIJW1wcOnGpfTST/view), March 2022 by Assaf
