@@ -194,13 +194,13 @@ Set up your computer and development environment and do some research. Feel free
 * [x] [Best practices and pitfalls](https://www.youtube.com/watch?v=_MNYuTNfTb4) @ PromCon 2017
 * [x] [Deep Dive: Kubernetes Metric APIs using Prometheus](https://www.youtube.com/watch?v=cIoOAbzhR7k)
 * [x] [Monitoring Kubernetes with prometheus-operator](https://www.youtube.com/watch?v=MuHPMXCGiLc) by Lili @ Cloud Native Computing Berlin meetup 2021
-* [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) by Tom Wilkie(Grafana Labs) @ Kubecon, Europe 2018
+* [x] [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) by Tom Wilkie(Grafana Labs) @ Kubecon, Europe 2018
 * [(Internal) Observatorium Deep Dive](https://drive.google.com/drive/u/0/folders/1NHhgoYi5y58wJpi_qp49tx1V9TQcRQTj), January 2021 by Kemal
 * [(Internal) How to Get Reviewers to Block your Changes](https://drive.google.com/file/d/1KOWv5A2qAoO1CfbfhCIJW1wcOnGpfTST/view), March 2022 by Assaf
 
 ### [optional] Additional information & Exploration
 
-* [https://www.linkedin.com/learning/](https://www.linkedin.com/learning/)
+* [x] [https://www.linkedin.com/learning/](https://www.linkedin.com/learning/)
   * Red Hat has a corporate subscription to LinkedIn Learning that has great introductory courses to many topics relevant to our team
 * [Prometheus Monitoring](https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA/videos) channel on Youtube
 * PromLabs [PromQL cheat sheet](https://promlabs.com/promql-cheat-sheet/)
