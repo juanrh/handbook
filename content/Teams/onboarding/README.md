@@ -195,7 +195,7 @@ Set up your computer and development environment and do some research. Feel free
 * [x] [Deep Dive: Kubernetes Metric APIs using Prometheus](https://www.youtube.com/watch?v=cIoOAbzhR7k)
 * [x] [Monitoring Kubernetes with prometheus-operator](https://www.youtube.com/watch?v=MuHPMXCGiLc) by Lili @ Cloud Native Computing Berlin meetup 2021
 * [x] [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) by Tom Wilkie(Grafana Labs) @ Kubecon, Europe 2018
-* [(Internal) Observatorium Deep Dive](https://drive.google.com/drive/u/0/folders/1NHhgoYi5y58wJpi_qp49tx1V9TQcRQTj), January 2021 by Kemal
+* [x] [(Internal) Observatorium Deep Dive](https://drive.google.com/drive/u/0/folders/1NHhgoYi5y58wJpi_qp49tx1V9TQcRQTj), January 2021 by Kemal
 * [(Internal) How to Get Reviewers to Block your Changes](https://drive.google.com/file/d/1KOWv5A2qAoO1CfbfhCIJW1wcOnGpfTST/view), March 2022 by Assaf
 
 ### [optional] Additional information & Exploration
