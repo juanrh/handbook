@@ -196,7 +196,7 @@ Set up your computer and development environment and do some research. Feel free
 * [x] [Monitoring Kubernetes with prometheus-operator](https://www.youtube.com/watch?v=MuHPMXCGiLc) by Lili @ Cloud Native Computing Berlin meetup 2021
 * [x] [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) by Tom Wilkie(Grafana Labs) @ Kubecon, Europe 2018
 * [x] [(Internal) Observatorium Deep Dive](https://drive.google.com/drive/u/0/folders/1NHhgoYi5y58wJpi_qp49tx1V9TQcRQTj), January 2021 by Kemal
-* [(Internal) How to Get Reviewers to Block your Changes](https://drive.google.com/file/d/1KOWv5A2qAoO1CfbfhCIJW1wcOnGpfTST/view), March 2022 by Assaf
+* [x] [(Internal) How to Get Reviewers to Block your Changes](https://drive.google.com/file/d/1KOWv5A2qAoO1CfbfhCIJW1wcOnGpfTST/view), March 2022 by Assaf
 
 ### [optional] Additional information & Exploration
 
@@ -211,9 +211,9 @@ The team uses various tools, you should get familiar with them by reading throug
 
 * [x] [Go](https://golang.org/)
 * [x] [Jsonnet](https://jsonnet.org/)
-* [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/)
+* [x] [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/)
 * [x] [Kubernetes](https://kubernetes.io/)
-* WIP [Thanos](https://thanos.io/)
+* [x] [Thanos](https://thanos.io/)
 * [Observatorium](https://github.com/observatorium)
 
 ### Who’s Who?
