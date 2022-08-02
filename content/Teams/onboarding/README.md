@@ -251,9 +251,9 @@ Everyone gets stuck sometimes. There are various smaller issues around the Prome
 ## First Months
 
 * If you will be starting out working more closely with the in-cluster stack be sure to review this document as well: [In-Cluster Monitoring Onboarding](https://docs.google.com/document/d/16Uzd8OLkBdN0H4KxqQIr7HTPYZWHKz3WdGtOlB6Rcdk/edit#). Otherwise if you are starting out more focused on the Observatorium service, review this doc: [Observatorium Platform Onboarding](https://docs.google.com/document/d/1RXSJYpx2x3bje6fwy2PEUSOgDrBlxq24A5vh2mHcxnk/edit#)
-* Try to get *something* (anything) merged into one of our repositories
+* [x] Try to get *something* (anything) merged into one of our repositories
 * Begin your 2nd project
-* Create a PR for the the master onboarding doc (this one) with improvements you think would help others
+* [x] Create a PR for the the master onboarding doc (this one) with improvements you think would help others
 
 ### Second project
 
