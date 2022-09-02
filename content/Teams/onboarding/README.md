@@ -178,8 +178,8 @@ Set up your computer and development environment and do some research. Feel free
 2. [x] Review our team’s process doc: [Monitoring Team Process](https://docs.google.com/document/d/1vbDGcjMjJMTIWcua5Keajla9FzexjLKmVk7zoUc0_MI/edit#heading=h.n0ac5lllvh13)
 3. [x] Review how others should formally submit requests to our team: [Requests: Monitoring Team](https://docs.google.com/document/d/10orRGt5zlmZ-XsXQNY-sg6lOzWDCrPmHP68Oi-ETU9I)
 4. [x] If you haven’t already, buy this book and make a plan to finish it over time (you can expense it): *“Site Reliability Engineering: How Google Runs Production Systems”*. Online version of the book can be found here: [https://sre.google/books/](https://sre.google/books/).
-5. Ensure you attend a meeting with your team lead or architect to give a general overview of our in-cluster OpenShift technology stack.
-6. Ensure you attend a meeting with your team lead or architect to give a general overview of our hosted Observatorium/Telemetry stack.
+5. [x] Ensure you attend a meeting with your team lead or architect to give a general overview of our in-cluster OpenShift technology stack.
+6. [x] Ensure you attend a meeting with your team lead or architect to give a general overview of our hosted Observatorium/Telemetry stack.
 7. [x] Bookmark this spreadsheet for reference of all [OpenShift release dates](https://docs.google.com/spreadsheets/d/19bRYespPb-AvclkwkoizmJ6NZ54p9iFRn6DGD8Ugv2c/edit#gid=0). Alternatively, you can add the [OpenShift Release Dates](https://calendar.google.com/calendar/embed?src=c_188dvhrfem5majheld63i20a7rslg%40resource.calendar.google.com&ctz=America%2FNew_York) calendar.
 
 ### Watch these talks
@@ -214,7 +214,7 @@ The team uses various tools, you should get familiar with them by reading throug
 * [x] [PromQL](https://prometheus.io/docs/prometheus/latest/querying/basics/)
 * [x] [Kubernetes](https://kubernetes.io/)
 * [x] [Thanos](https://thanos.io/)
-* [Observatorium](https://github.com/observatorium)
+* [x] [Observatorium](https://github.com/observatorium)
 
 ### Who’s Who?
 
@@ -250,7 +250,7 @@ Everyone gets stuck sometimes. There are various smaller issues around the Prome
 
 ## First Months
 
-* If you will be starting out working more closely with the in-cluster stack be sure to review this document as well: [In-Cluster Monitoring Onboarding](https://docs.google.com/document/d/16Uzd8OLkBdN0H4KxqQIr7HTPYZWHKz3WdGtOlB6Rcdk/edit#). Otherwise if you are starting out more focused on the Observatorium service, review this doc: [Observatorium Platform Onboarding](https://docs.google.com/document/d/1RXSJYpx2x3bje6fwy2PEUSOgDrBlxq24A5vh2mHcxnk/edit#)
+* [x] If you will be starting out working more closely with the in-cluster stack be sure to review this document as well: [In-Cluster Monitoring Onboarding](https://docs.google.com/document/d/16Uzd8OLkBdN0H4KxqQIr7HTPYZWHKz3WdGtOlB6Rcdk/edit#). Otherwise if you are starting out more focused on the Observatorium service, review this doc: [Observatorium Platform Onboarding](https://docs.google.com/document/d/1RXSJYpx2x3bje6fwy2PEUSOgDrBlxq24A5vh2mHcxnk/edit#)
 * [x] Try to get *something* (anything) merged into one of our repositories
 * Begin your 2nd project
 * [x] Create a PR for the the master onboarding doc (this one) with improvements you think would help others
